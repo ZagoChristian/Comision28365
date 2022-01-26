@@ -1,0 +1,1034 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(white, rgba(255,223,0));
+}
+
+a{
+    display: inline-block;
+    padding: 60px;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.noticias{
+    color: rgb(255,255,255);
+}
+
+.floydProductos{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    flex-wrap: wrap;
+
+}
+
+.floydChomba{
+    margin: 50px;
+}
+
+.floydLibro{
+    margin: 50px;
+}
+
+.floydGuantes{
+    margin: 50px;
+}
+
+.floydHat{
+    margin: 50px;
+}
+
+.floydPoster{
+    margin: 50px;
+}
+
+.floydRemera{
+    margin: 50px;
+}
+
+.floydShort{
+    margin: 50px;
+}
+
+.floydBarbijo{
+    margin: 50px;
+}
+
+.floydBeanie{
+    margin: 50px;
+}
+
+.floydBolso{
+    margin: 50px;
+}
+
+.floydBuzo{
+    margin: 50px;
+}
+
+.floydCampera{
+    margin: 50px;
+}
+
+.ingresarCuenta{
+    text-align: center;
+    margin: 60px;
+}
+
+.floydImagenes{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.floydJerkins{  
+    margin: 50px;
+}
+
+.floydJohnny{
+    margin: 50px;
+}
+
+.floydPaulyd{  
+    margin: 50px;
+}
+
+.floydStoll{  
+    margin: 50px;
+}
+
+.floydWarren{ 
+    margin: 50px;
+}
+
+.floydJustin{
+    margin: 50px;
+}
+
+.floydDatos{
+    display: grid;
+    grid-template-areas: "floydSonrisa datos";
+    text-align: center;
+    justify-content: center;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.floydSonrisa{
+grid-area: "floydSonrisa";
+}
+
+.datos{
+    grid-area: "datos";
+    margin: 120px;
+    margin-top: 210px;
+    margin-left: 250px;
+    text-align: left;
+    
+}
+
+.videoTabla{
+    display: grid;
+    grid-template-areas: "video tabla";
+    justify-items: center;
+    align-items: center;
+    margin: 5%;
+}
+
+iframe{
+    grid-area: "video";
+}
+
+.tabla{
+    grid-area: "tabla";
+    border: 10px black solid;
+    text-align: left;
+    margin-right: 40%;
+}
+
+.footer{
+        text-align: left;
+        margin-top: 30px;
+}
+
+footer{
+    display: grid;
+    grid-template-areas: "moneyBlack suscripcion";
+    background-color: rgb(0, 0, 0);
+
+}
+.moneyBlack{
+    grid-area: "moneyBlack";
+    margin: 20px;
+}
+
+.suscripcion{
+    grid-area: "suscripcion";
+    margin: 40px;
+    text-align: left;
+    margin-left: 40%;
+}
+
+
+.floydBiografia{
+    font-weight: 700;
+    text-align: justify;
+    margin: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.imagenesFloyd{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+.home{
+    grid-area: "home";
+}
+
+.contacto{
+    grid-area: "contacto";
+}
+
+.galeria{
+    grid-area: "galeria";
+}
+
+.ingresar{
+    grid-area: "ingresar";
+}
+
+.productos{
+    grid-area: "productos";
+}
+
+.moneyTeam{
+    grid-area: "moneyTeam";
+}
+
+a{
+    margin: 10px;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana;
+}
+
+footer{
+        display: grid;
+        grid-template-areas: "moneyBlack"
+                             "suscripcion";
+        background-color: rgb(0, 0, 0);
+    
+}
+
+.moneyBlack{
+        grid-area: "moneyBlack";
+        margin: 20px;
+        width: 320px;
+        height: 65px;
+
+}
+    
+.suscripcion{
+        grid-area: "suscripcion";
+        margin: 40px;
+        text-align: left;
+}
+
+ul{
+    display: grid;
+    grid-template-areas:"moneyTeam"
+                        "home"
+                        "contacto"
+                        "galeria"
+                        "ingresar"
+                        "productos";
+}
+
+.videoTabla{
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-areas: "video"
+                             "tabla";
+        justify-items: center;
+        align-items: center;
+        margin: 5%;
+}
+    
+iframe{
+        grid-area: "video";
+        width: auto;
+}
+    
+.tabla{
+        grid-area: "tabla";
+        border: 10px black solid;
+        text-align: left;
+        margin-left: 45%;
+        margin-top: 5%;
+}
+
+.floydBiografia{
+        font-weight: 700;
+        text-align: justify;
+        font-size: 20px;
+        font-family: sans-serif;
+}
+
+.floydDatos{
+    display: grid;
+    grid-template-areas: "floydSonrisa"
+                         "datos";
+    text-align: center;
+    justify-content: center;
+}
+
+.floydSonrisa{
+grid-area: "floydSonrisa";
+width: 320px;
+height: 244px;
+margin-left: 0%;
+}
+
+.datos{
+    grid-area: "datos";
+    margin: 10%;
+    margin-left: 20%;
+    text-align: left;
+    
+}
+
+.floydImagenes{
+        margin-left: 0%;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+        flex-wrap: wrap;
+    
+    }
+
+.floydJerkins{  
+    margin: 50px;
+    width: 320px;
+    height: 320px;
+}
+
+.floydJohnny{
+    margin: 50px;
+    width: 320px;
+    height: 320px;
+}
+
+.floydPaulyd{  
+    margin: 50px;
+    width: 320px;
+    height: 320px;
+}
+
+.floydStoll{  
+    margin: 50px;
+    width: 320px;
+    height: 320px;
+}
+
+.floydWarren{ 
+    margin: 50px;
+    width: 320px;
+    height: 320px;
+}
+
+.floydJustin{
+    margin: 50px;
+    width: 320px;
+    height: 320px;
+}
+
+.ingresarCuenta{
+    text-align: center;
+    margin: 60px;
+    margin-bottom: 1%;
+}
+
+
+.floydGorra{
+    height: 213px;
+    width: 320px;
+    margin: 10%;
+}
+
+.floydCanelo{
+    height: 213px;
+    width: 320px;
+    margin: 10%;
+    margin-top: 5%;
+}
+
+.floydConor{
+    height: 213px;
+    width: 320px;
+    margin: 10%;
+}
+
+.imagenesFloyd{
+    margin-left: 0%;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+        flex-wrap: wrap;
+}
+}
+
+@media screen and (min-width:481px) and (max-width: 768px){
+
+    .home{
+        grid-area: "home";
+    }
+    
+    .contacto{
+        grid-area: "contacto";
+    }
+    
+    .galeria{
+        grid-area: "galeria";
+    }
+    
+    .ingresar{
+        grid-area: "ingresar";
+    }
+    
+    .productos{
+        grid-area: "productos";
+    }
+    
+    .moneyTeam{
+        grid-area: "moneyTeam";
+    }
+    
+    a{
+        margin: 10px;
+        padding: 0px;
+        color: rgb(255, 255, 255);
+        font-family: Verdana;
+    }
+    
+    footer{
+            display: grid;
+            grid-template-areas: "moneyBlack"
+                                 "suscripcion";
+            background-color: rgb(0, 0, 0);
+        
+    }
+    
+    .moneyBlack{
+            grid-area: "moneyBlack";
+            margin: 20px;
+            width: 320px;
+            height: 65px;
+    
+    }
+        
+    .suscripcion{
+            grid-area: "suscripcion";
+            margin: 40px;
+            text-align: left;
+    }
+    
+    ul{
+        display: grid;
+        grid-template-areas:"moneyTeam"
+                            "home"
+                            "contacto"
+                            "galeria"
+                            "ingresar"
+                            "productos";
+    }
+    
+    .videoTabla{
+            display: grid;
+            grid-template-columns: 2fr;
+            grid-template-areas: "video"
+                                 "tabla";
+            justify-items: center;
+            align-items: center;
+            margin: 5%;
+    }
+        
+    iframe{
+            grid-area: "video";
+            width: auto;
+    }
+        
+    .tabla{
+            grid-area: "tabla";
+            border: 10px black solid;
+            text-align: left;
+            margin-left: 45%;
+            margin-top: 5%;
+    }
+    
+    .floydBiografia{
+            font-weight: 700;
+            text-align: justify;
+            font-size: 20px;
+            font-family: sans-serif;
+    }
+    
+    .floydDatos{
+        display: grid;
+        grid-template-areas: "floydSonrisa"
+                             "datos";
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .floydSonrisa{
+    grid-area: "floydSonrisa";
+    width: 500px;
+    height: 382px;
+    margin-left: 0%;
+    }
+    
+    .datos{
+        grid-area: "datos";
+        margin: 10%;
+        margin-left: 20%;
+        text-align: left;
+        
+    }
+    
+    .floydImagenes{
+        margin-left: 0%;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+        flex-wrap: wrap;
+    
+    }
+    
+    .floydJerkins{  
+        margin: 100px;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .floydJohnny{
+        margin: 100px;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .floydPaulyd{  
+        margin: 100px;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .floydStoll{  
+        margin: 100px;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .floydWarren{ 
+        margin: 100px;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .floydJustin{
+        margin: 100px;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .ingresarCuenta{
+        text-align: center;
+        margin: 60px;
+        margin-bottom: 1%;
+    }
+    
+    
+    .floydGorra{
+        height: 213px;
+        width: 320px;
+        margin: 10%;
+    }
+    
+    .floydCanelo{
+        height: 213px;
+        width: 320px;
+        margin: 10%;
+        margin-top: 5%;
+    }
+    
+    .floydConor{
+        height: 213px;
+        width: 320px;
+        margin: 10%;
+    }
+    
+    .imagenesFloyd{
+        margin-left: 0%;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+        flex-wrap: wrap;
+    }
+
+    .floydProductos{
+        display: flex;
+        justify-content: space-between;
+        margin: 25%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        flex-wrap: wrap;
+    
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width: 1024px){
+
+    .home{
+        grid-area: "home";
+    }
+    
+    .contacto{
+        grid-area: "contacto";
+    }
+    
+    .galeria{
+        grid-area: "galeria";
+    }
+    
+    .ingresar{
+        grid-area: "ingresar";
+    }
+    
+    .productos{
+        grid-area: "productos";
+    }
+    
+    .moneyTeam{
+        grid-area: "moneyTeam";
+    }
+    
+    a{
+        margin: 10px;
+        padding: 0px;
+        color: rgb(255, 255, 255);
+        font-family: Verdana;
+    }
+    
+    footer{
+            display: grid;
+            grid-template-areas: "moneyBlack"
+                                 "suscripcion";
+            background-color: rgb(0, 0, 0);
+        
+    }
+    
+    .moneyBlack{
+            grid-area: "moneyBlack";
+            margin: 20px;
+            width: 320px;
+            height: 65px;
+    
+    }
+        
+    .suscripcion{
+            grid-area: "suscripcion";
+            margin: 40px;
+            text-align: left;
+    }
+    
+    ul{
+        display: grid;
+        grid-template-areas:"moneyTeam"
+                            "home"
+                            "contacto"
+                            "galeria"
+                            "ingresar"
+                            "productos";
+    }
+    
+    .videoTabla{
+            display: grid;
+            grid-template-columns: 2fr;
+            grid-template-areas: "video"
+                                 "tabla";
+            justify-items: center;
+            align-items: center;
+            margin: 5%;
+    }
+        
+    iframe{
+            grid-area: "video";
+    }
+        
+    .tabla{
+            grid-area: "tabla";
+            border: 10px black solid;
+            text-align: left;
+            margin-left: 45%;
+            margin-top: 5%;
+    }
+    
+    .floydBiografia{
+            font-weight: 700;
+            text-align: justify;
+            font-size: 20px;
+            font-family: sans-serif;
+    }
+    
+    .floydDatos{
+        display: grid;
+        grid-template-areas: "floydSonrisa"
+                             "datos";
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .floydSonrisa{
+    grid-area: "floydSonrisa";
+    width: 500px;
+    height: 382px;
+    margin-left: 0%;
+    }
+    
+    .datos{
+        grid-area: "datos";
+        margin: 10%;
+        margin-left: 20%;
+        text-align: left;
+        
+    }
+    
+    .floydImagenes{
+        margin-left: 0%;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+        flex-wrap: wrap;
+    }
+    
+    .floydJerkins{  
+        margin: 100px;
+        width: 480px;
+        height: 480px;
+    }
+    
+    .floydJohnny{
+        margin: 100px;
+        width: 480px;
+        height: 480px;
+    }
+    
+    .floydPaulyd{  
+        margin: 100px;
+        width: 480px;
+        height: 480px;
+    }
+    
+    .floydStoll{  
+        margin: 100px;
+        width: 480px;
+        height: 480px;
+    }
+    
+    .floydWarren{ 
+        margin: 100px;
+        width: 480px;
+        height: 480px;
+    }
+    
+    .floydJustin{
+        margin: 100px;
+        width: 480px;
+        height: 480px;
+    }
+    
+    .ingresarCuenta{
+        text-align: center;
+        margin: 60px;
+        margin-bottom: 1%;
+    }
+    
+    
+    .floydGorra{
+        height: 213px;
+        width: 320px;
+        margin: 10%;
+    }
+    
+    .floydCanelo{
+        height: 213px;
+        width: 320px;
+        margin: 10%;
+        margin-top: 5%;
+    }
+    
+    .floydConor{
+        height: 213px;
+        width: 320px;
+        margin: 10%;
+    }
+    
+    .imagenesFloyd{
+        display: flex;
+        justify-content: space-between;
+        margin: 25%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 30%;
+        flex-wrap: wrap;
+    }
+
+    .floydProductos{
+        display: flex;
+        justify-content: space-between;
+        margin: 25%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 30%;
+        flex-wrap: wrap;
+    
+    }
+}
+
+@media screen and (min-width: 1025px){
+
+a{
+    display: inline-block;
+    padding: 60px;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana;
+}
+
+ul{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+}
+
+.noticias{
+    color: rgb(255,255,255);
+}
+
+.floydProductos{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    flex-wrap: wrap;
+
+}
+
+.floydChomba{
+    margin: 50px;
+}
+
+.floydLibro{
+    margin: 50px;
+}
+
+.floydGuantes{
+    margin: 50px;
+}
+
+.floydHat{
+    margin: 50px;
+}
+
+.floydPoster{
+    margin: 50px;
+}
+
+.floydRemera{
+    margin: 50px;
+}
+
+.floydShort{
+    margin: 50px;
+}
+
+.floydBarbijo{
+    margin: 50px;
+}
+
+.floydBeanie{
+    margin: 50px;
+}
+
+.floydBolso{
+    margin: 50px;
+}
+
+.floydBuzo{
+    margin: 50px;
+}
+
+.floydCampera{
+    margin: 50px;
+}
+
+.ingresarCuenta{
+    text-align: center;
+    margin: 60px;
+}
+
+.floydImagenes{
+    margin-left: 0%;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+        flex-wrap: wrap;
+}
+
+.floydJerkins{  
+    margin: 50px;
+}
+
+.floydJohnny{
+    margin: 50px;
+}
+
+.floydPaulyd{  
+    margin: 50px;
+}
+
+.floydStoll{  
+    margin: 50px;
+}
+
+.floydWarren{ 
+    margin: 50px;
+}
+
+.floydJustin{
+    margin: 50px;
+}
+
+.floydDatos{
+    display: grid;
+    grid-template-areas: "floydSonrisa datos";
+    text-align: center;
+    justify-content: center;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.floydSonrisa{
+grid-area: "floydSonrisa";
+}
+
+.datos{
+    grid-area: "datos";
+    margin: 120px;
+    margin-top: 210px;
+    margin-left: 250px;
+    text-align: left;
+    
+}
+
+.videoTabla{
+    display: grid;
+    grid-template-areas: "video tabla";
+    justify-items: center;
+    align-items: center;
+    margin: 5%;
+}
+
+iframe{
+    grid-area: "video";
+}
+
+.tabla{
+    grid-area: "tabla";
+    border: 10px black solid;
+    text-align: left;
+    margin-right: 40%;
+}
+
+.footer{
+        text-align: left;
+        margin-top: 30px;
+}
+
+footer{
+    display: grid;
+    grid-template-areas: "moneyBlack suscripcion";
+    background-color: rgb(0, 0, 0);
+
+}
+.moneyBlack{
+    grid-area: "moneyBlack";
+    margin: 20px;
+}
+
+.suscripcion{
+    grid-area: "suscripcion";
+    margin: 40px;
+    text-align: left;
+    margin-left: 40%;
+}
+
+
+.floydBiografia{
+    font-weight: 700;
+    text-align: justify;
+    margin: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.imagenesFloyd{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.floydGorra{
+        margin: 2%;
+}
+
+.floydCanelo{
+        margin: 2%;
+}
+
+.floydConor{
+        margin: 2%;
+}
+}
