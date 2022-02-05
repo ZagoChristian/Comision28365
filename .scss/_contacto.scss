@@ -1,0 +1,101 @@
+.floydDatos{
+    display: grid;
+    grid-template-areas: "floydSonrisa datos";
+    text-align: center;
+    justify-content: center;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+.floydSonrisa{
+grid-area: "floydSonrisa";
+}
+.datos{
+    grid-area: "datos";
+    margin: 120px;
+    margin-top: 210px;
+    margin-left: 250px;
+    text-align: left; 
+}
+@media screen and (max-width: 480px) {
+        .floydDatos{
+            display: grid;
+             grid-template-areas: "floydSonrisa"
+                                   "datos";
+            text-align: center;
+            justify-content: center;
+}
+        .floydSonrisa{
+            grid-area: "floydSonrisa";
+            width: 320px;
+            height: 244px;
+            margin-left: 0%;
+}
+        .datos{
+            grid-area: "datos";
+            margin: 10%;
+            margin-left: 20%;
+         text-align: left;
+}
+}
+    @media screen and (min-width:481px) and (max-width: 768px){
+        .floydDatos{
+            display: grid;
+            grid-template-areas: "floydSonrisa"
+                                 "datos";
+            text-align: center;
+            justify-content: center;
+        }
+        .floydSonrisa{
+        grid-area: "floydSonrisa";
+        width: 500px;
+        height: 382px;
+        margin-left: 0%;
+        }
+        .datos{
+            grid-area: "datos";
+            margin: 10%;
+            margin-left: 20%;
+            text-align: left;
+        }
+    }
+@media screen and (min-width:769px) and (max-width: 1024px){
+    .floydDatos{
+         display: grid;
+        grid-template-areas: "floydSonrisa"
+                             "datos";
+        text-align: center;
+        justify-content: center;
+    }
+    .floydSonrisa{
+        grid-area: "floydSonrisa";
+        width: 500px;
+        height: 382px;
+        margin-left: 0%;
+    }
+        .datos{
+        grid-area: "datos";
+        margin: 10%;
+        margin-left: 20%;
+        text-align: left;
+    }
+}
+@media screen and (min-width: 1025px){
+    .floydDatos{
+        display: grid;
+        grid-template-areas: "floydSonrisa datos";
+        text-align: center;
+        justify-content: center;
+        margin: 40px;
+        flex-wrap: wrap;
+    }
+    .floydSonrisa{
+    grid-area: "floydSonrisa";
+    }
+    .datos{
+        grid-area: "datos";
+        margin: 120px;
+        margin-top: 210px;
+        margin-left: 250px;
+        text-align: left;
+    }
+}

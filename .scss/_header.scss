@@ -1,0 +1,133 @@
+a{
+    display: inline-block;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 480px) {
+.home{
+        grid-area: "home";
+    }   
+.contacto{
+        grid-area: "contacto";
+    }  
+.galeria{
+        grid-area: "galeria";
+    }  
+.ingresar{
+        grid-area: "ingresar";
+    }  
+.productos{
+        grid-area: "productos";
+    }   
+.moneyTeam{
+        grid-area: "moneyTeam";
+    }   
+a{
+        margin: 10px;
+        padding: 0px;
+        color: rgb(255, 255, 255);
+        font-family: Verdana;
+    }
+ul{
+    display: grid;
+    grid-template-areas:"moneyTeam"
+                        "home"
+                        "contacto"
+                        "galeria"
+                        "ingresar"
+                        "productos";
+}
+}
+
+@media screen and (min-width:481px) and (max-width: 768px){
+    .home{
+        grid-area: "home";
+    }
+    .contacto{
+        grid-area: "contacto";
+    }
+    .galeria{
+        grid-area: "galeria";
+    }
+    .ingresar{
+        grid-area: "ingresar";
+    }
+    .productos{
+        grid-area: "productos";
+    }
+    .moneyTeam{
+        grid-area: "moneyTeam";
+    }
+    a{
+        margin: 10px;
+        padding: 0px;
+        color: rgb(255, 255, 255);
+        font-family: Verdana;
+    }
+    ul{
+        display: grid;
+        grid-template-areas:"moneyTeam"
+                            "home"
+                            "contacto"
+                            "galeria"
+                            "ingresar"
+                            "productos";
+    }
+}
+@media screen and (min-width:769px) and (max-width: 1024px){
+    .home{
+        grid-area: "home";
+    }
+    .contacto{
+        grid-area: "contacto";
+    }
+    .galeria{
+        grid-area: "galeria";
+    }
+    .ingresar{
+        grid-area: "ingresar";
+    }
+    .productos{
+        grid-area: "productos";
+    }
+    .moneyTeam{
+        grid-area: "moneyTeam";
+    }
+    a{
+        margin: 10px;
+        padding: 0px;
+        color: rgb(255, 255, 255);
+        font-family: Verdana;
+    }
+    ul{
+        display: grid;
+        grid-template-areas:"moneyTeam"
+                            "home"
+                            "contacto"
+                            "galeria"
+                            "ingresar"
+                            "productos";
+    }
+}
+@media screen and (min-width: 1025px){
+    a{
+        display: inline-block;
+        padding: 60px;
+        margin: 20px;
+        color: rgb(255, 255, 255);
+        font-family: Verdana;
+    }
+    ul{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(0, 0, 0);
+        flex-wrap: wrap;
+    }
+}

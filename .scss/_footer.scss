@@ -1,0 +1,104 @@
+.noticias{
+    color: rgb(255,255,255);
+}
+.footer{
+    text-align: left;
+    margin-top: 30px;
+}
+footer{
+    display: grid;
+    grid-template-areas: "moneyBlack suscripcion";
+    background-color: rgb(0, 0, 0);
+}
+.moneyBlack{
+    grid-area: "moneyBlack";
+    margin: 20px;
+}
+.suscripcion{
+    grid-area: "suscripcion";
+    margin: 40px;
+    text-align: left;
+    margin-left: 40%;
+}
+@media screen and (max-width: 480px) {
+    footer{
+        display: grid;
+        grid-template-areas: "moneyBlack"
+                             "suscripcion";
+        background-color: rgb(0, 0, 0);
+}
+.moneyBlack{
+        grid-area: "moneyBlack";
+        margin: 20px;
+        width: 320px;
+        height: 65px;
+
+}
+.suscripcion{
+        grid-area: "suscripcion";
+        margin: 40px;
+        text-align: left;
+}
+}
+@media screen and (min-width:481px) and (max-width: 768px){
+    footer{
+            display: grid;
+            grid-template-areas: "moneyBlack"
+                                 "suscripcion";
+            background-color: rgb(0, 0, 0);
+    }
+    .moneyBlack{
+            grid-area: "moneyBlack";
+            margin: 20px;
+            width: 320px;
+            height: 65px;
+    }
+    .suscripcion{
+            grid-area: "suscripcion";
+            margin: 40px;
+            text-align: left;
+    }
+}
+@media screen and (min-width:769px) and (max-width: 1024px){
+    footer{
+            display: grid;
+            grid-template-areas: "moneyBlack"
+                                 "suscripcion";
+            background-color: rgb(0, 0, 0);
+    }
+    .moneyBlack{
+            grid-area: "moneyBlack";
+            margin: 20px;
+            width: 320px;
+            height: 65px;
+    }
+    .suscripcion{
+            grid-area: "suscripcion";
+            margin: 40px;
+            text-align: left;
+    }
+}
+@media screen and (min-width: 1025px){
+    .noticias{
+        color: rgb(255,255,255);
+    }
+    .footer{
+        text-align: left;
+        margin-top: 30px;
+    }  
+    footer{
+        display: grid;
+        grid-template-areas: "moneyBlack suscripcion";
+        background-color: rgb(0, 0, 0);
+    }
+    .moneyBlack{
+        grid-area: "moneyBlack";
+        margin: 20px;
+    }
+    .suscripcion{
+        grid-area: "suscripcion";
+        margin: 40px;
+        text-align: left;
+        margin-left: 40%;
+    }
+}

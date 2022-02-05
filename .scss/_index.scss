@@ -1,0 +1,131 @@
+.videoTabla{
+    display: grid;
+    grid-template-areas: "video tabla";
+    justify-items: center;
+    align-items: center;
+    margin: 5%;
+}
+iframe{
+    grid-area: "video";
+}
+.tabla{
+    grid-area: "tabla";
+    border: 10px black solid;
+    text-align: left;
+    margin-right: 40%;
+}
+.floydBiografia{
+    font-weight: 700;
+    text-align: justify;
+    margin: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+@media screen and (max-width: 480px) {
+  .videoTabla{
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-areas: "video"
+                             "tabla";
+        justify-items: center;
+        align-items: center;
+        margin: 5%;
+}  
+iframe{
+        grid-area: "video";
+        width: auto;
+}  
+.tabla{
+        grid-area: "tabla";
+        border: 10px black solid;
+        text-align: left;
+        margin-left: 45%;
+        margin-top: 5%;
+}
+.floydBiografia{
+        font-weight: 700;
+        text-align: justify;
+        font-size: 20px;
+        font-family: sans-serif;
+}
+}
+@media screen and (min-width:481px) and (max-width: 768px){
+    .videoTabla{
+            display: grid;
+            grid-template-columns: 2fr;
+            grid-template-areas: "video"
+                                 "tabla";
+            justify-items: center;
+            align-items: center;
+            margin: 5%;
+    }  
+    iframe{
+            grid-area: "video";
+            width: auto;
+    }  
+    .tabla{
+            grid-area: "tabla";
+            border: 10px black solid;
+            text-align: left;
+            margin-left: 45%;
+            margin-top: 5%;
+    }
+    .floydBiografia{
+            font-weight: 700;
+            text-align: justify;
+            font-size: 20px;
+            font-family: sans-serif;
+    }
+}
+@media screen and (min-width:769px) and (max-width: 1024px){
+    .videoTabla{
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-areas: "video"
+                             "tabla";
+        justify-items: center;
+        align-items: center;
+        margin: 5%;
+}
+iframe{
+        grid-area: "video";
+}
+.tabla{
+        grid-area: "tabla";
+        border: 10px black solid;
+        text-align: left;
+        margin-left: 45%;
+        margin-top: 5%;
+}
+.floydBiografia{
+        font-weight: 700;
+        text-align: justify;
+        font-size: 20px;
+        font-family: sans-serif;
+}
+}
+@media screen and (min-width: 1025px){
+    .videoTabla{
+        display: grid;
+        grid-template-areas: "video tabla";
+        justify-items: center;
+        align-items: center;
+        margin: 5%;
+    }
+    iframe{
+        grid-area: "video";
+    }
+    .tabla{
+        grid-area: "tabla";
+        border: 10px black solid;
+        text-align: left;
+        margin-right: 40%;
+    }
+    .floydBiografia{
+        font-weight: 700;
+        text-align: justify;
+        margin: 30px;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+}

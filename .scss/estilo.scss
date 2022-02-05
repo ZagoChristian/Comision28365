@@ -1,0 +1,12 @@
+@import "index";
+@import "header";
+@import "footer";
+@import "productos";
+@import "ingresar";
+@import "galeria";
+@import "contacto";
+body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(white,#ffdf00);
+}

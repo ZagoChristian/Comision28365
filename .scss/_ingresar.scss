@@ -1,0 +1,123 @@
+.ingresarCuenta{
+    text-align: center;
+    margin: 60px;
+}
+.imagenesFloyd{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 480px) {
+    .ingresarCuenta{
+        text-align: center;
+        margin: 60px;
+        margin-bottom: 1%;
+    }
+    .imagenesFloyd{
+        margin-left: 0%;
+            width: auto;
+            display: flex;
+            justify-content: center;
+            margin: 40px;
+            flex-wrap: wrap;
+    }
+    .floydGorra{
+        height: 213px;
+        width: 320px;
+        margin: 10%;
+    }
+    .floydCanelo{
+        height: 213px;
+        width: 320px;
+        margin-top: 5%;
+    }
+    .floydConor{
+        height: 213px;
+        width: 320px;
+        margin: 10%;
+    }
+}
+@media screen and (min-width:481px) and (max-width: 768px){
+     .ingresarCuenta{
+        text-align: center;
+        margin: 60px;
+        margin-bottom: 1%;
+    }  
+    .floydGorra .floydCanelo .floydConor{
+        height: 213px;
+        width: 320px;
+        margin: 10%;
+    }  
+    .floydCanelo{
+        height: 213px;
+        width: 320px;
+        margin-top: 5%;
+    }    
+    .floydConor{
+        height: 213px;
+        width: 320px;
+        margin: 10%;
+    }  
+    .imagenesFloyd{
+        margin-left: 0%;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width:769px) and (max-width: 1024px){
+    .ingresarCuenta{
+        text-align: center;
+        margin: 60px;
+        margin-bottom: 1%;
+    }
+    .floydGorra{
+        height: 213px;
+        width: 320px;
+        margin: 10%;
+    }
+    .floydCanelo{
+        height: 213px;
+        width: 320px;
+        margin-top: 5%;
+    }
+    .floydConor{
+        height: 213px;
+        width: 320px;
+        margin: 10%;
+    }
+    .imagenesFloyd{
+        display: flex;
+        justify-content: space-between;
+        margin: 25%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 30%;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width: 1025px){
+    .ingresarCuenta{
+        text-align: center;
+        margin: 60px;
+    }
+    .imagenesFloyd{
+        display: flex;
+        width: auto;
+        justify-content: center;
+        margin: 40px;
+        flex-wrap: wrap;
+    }
+    .floydGorra{
+        margin: 2%;
+    }
+    .floydCanelo{
+        margin: 2%;
+    }
+    .floydConor{
+        margin: 2%;
+     }
+}
